@@ -1,17 +1,17 @@
 
 import React, { useState, useEffect } from 'react';
 import './Feed.css';
-import CreateIcon from '@mui/icons-material/Create';
-import InputOption from './InputOption';
-import ImageIcon from '@mui/icons-material/Image';
-import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
-import EventNoteIcon from '@mui/icons-material/EventNote';
-import CalendarViewDayIcon from '@mui/icons-material/CalendarViewDay';
+import CreateIcon from "@material-ui/icons/Create";
+import InputOption from "./InputOption";
+import ImageIcon from "@material-ui/icons/Image";
+import SubscriptionsIcon from "@material-ui/icons/Subscriptions";
+import EventNoteIcon from "@material-ui/icons/EventNote";
+import CalendarViewDayIcon from "@material-ui/icons/CalendarViewDay";
 import Post from './Post';
 import { db } from './firebase' ;
 import firebase from 'firebase';
 import { useSelector } from "react-redux";
-import { selectUser } from "./app/userSlice";
+import { selectUser } from "./features/userSlice";
 import FlipMove from "react-flip-move";
 
 

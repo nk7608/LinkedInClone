@@ -3,7 +3,17 @@
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
+    overflow-y: scroll;
 }
+.post::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .post {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 .post__header{
     display: flex;
     margin-bottom: 10px;

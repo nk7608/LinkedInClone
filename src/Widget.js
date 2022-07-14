@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Widget.css";
-import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
-import InfoIcon from '@mui/icons-material/Info';
+import InfoIcon from "@material-ui/icons/Info";
+import FiberManualRecordIcon from "@material-ui/icons/FiberManualRecord";
 
 function Widget() {
 const newsArticle = (heading, subtitle) => (

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from "react-redux";
-import { login } from "./app/userSlice";
+import { login } from "./features/userSlice";
 import { auth } from './firebase';
 import "./Login.css";
 
@@ -50,7 +50,7 @@ auth.createUserWithEmailAndPassword(email, password).then((userAuth) => {
 
   return (
     <div className="login">
-<img src='https://news.hitb.org/sites/default/files/styles/large/public/field/image/500px-LinkedIn_Logo.svg__1.png?itok=q_lR0Vks'
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LinkedIn_Logo_2013.svg/1024px-LinkedIn_Logo_2013.svg.png'
                 alt='LinkedIn Logo' />
 
     <form action="">
